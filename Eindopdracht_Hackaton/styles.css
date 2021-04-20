@@ -1,9 +1,6 @@
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Open Sans', sans-serif;
     margin: 0;
-  }
-
-  .container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -71,7 +68,7 @@ body {
   .banner-text {
     position: relative;
     text-align: left;
-    top:35%;
+    top:27%;
     left: 10%;
     color:black
   }
@@ -109,6 +106,8 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      list-style: none;
+      margin-top: 50px;
   }
 
   button {
@@ -147,7 +146,7 @@ body {
     background-color: whitesmoke;
   }
 
-  .form-container {
+  .news-form {
       padding: 20px
   }
 
@@ -189,7 +188,7 @@ input[type=submit] {
 */
 
 @media (min-width: 1281px) {
-  .container {
+  body {
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 25px 44px 170px 2.2fr;
   grid-template-areas:
@@ -215,7 +214,7 @@ input[type=submit] {
     padding: 60px 20%;
   }
 
-  .adspace > div {
+  .adspace > iframe {
     margin-top: 50px; 
   }
 
